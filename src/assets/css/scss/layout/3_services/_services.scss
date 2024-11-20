@@ -1,0 +1,274 @@
+.services {
+    margin: 3rem 0 0 0;
+    
+    h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+    &-cards__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: center;
+
+        .service-card {
+            margin-bottom: 20px;
+            flex-grow: 1;
+            width: 90%;
+            max-width: 90%;
+            height: auto;
+
+            .card__glider {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 5/7;
+                border-radius: 10%;
+    
+                .card-content {
+                    position:relative;
+    
+                    &__image {
+                        width: 100%;
+                        object-fit: cover;
+                        aspect-ratio: 5/7;
+                    }
+
+                    &--with-number {
+                        width: 60%;
+                        display: flex;
+                        position: absolute;
+                        z-index: 10;
+                        bottom: 5%;
+                        left: 10%;
+                        gap: 15%;
+                        align-items: center;
+                        
+                        .card-content__number {
+                            font-size: 3rem;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: white;
+                        }
+    
+                        .card-content__text {
+                            font-size: 1.5rem;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: white;
+                        }
+                    }
+
+                    &--without-number {
+                        width: 90%;
+                        height: 100%;
+                        display: flex;
+                        position: absolute;
+                        z-index: 10;
+                        top: 12%;
+                        left: 5%;
+                    
+    
+                        .card-content__text {
+                            font-size: 1.3rem;
+                            color: white;
+                            font-family: Arial, Helvetica, sans-serif;
+
+                            span {
+                                margin-bottom: 5%;
+                            }
+
+                            li {
+                                list-style: disc;
+                                &::marker {
+                                    margin-top: -1%;
+                                    font-size: 1.3rem;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .glide {
+                    &__track {
+                        position: relative;
+                        border-radius: 15%;
+                    }
+    
+                    &__bullets {
+                        position: absolute;
+                        top: 10%;
+                        left: 5%;
+                        display: flex;
+                        justify-content: space-evenly;
+                        gap: 10px;
+                        width: 90%;
+                        height: 4px;
+        
+                        .glide__bullet {
+                            position: relative;
+                            flex: 1;
+                            border: none;
+                            border-radius: 10px;
+                            background-color: #707070;
+                            opacity: 70%;
+        
+                            &-reaction--fill {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                height: 100%;
+                                width: 0%;
+                                background-color: #f8f8f8 ;
+                                opacity: 80%;
+                                border-radius: 10px;
+                                transition: width 0s linear;
+                            }
+        
+                            &--visited {
+                                opacity: 80%;
+                                background-color: #f8f8f8 !important;
+                            }
+                        }
+        
+                        .glide__bullet--active {
+                            .glide__bullet-reaction {
+                                width: 0%;
+                                transition: width 0s linear;
+                            }
+        
+                            .glide__bullet-reaction--fill {
+                                width: 100%;
+                                transition: width 3s linear;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .services {
+        &-cards__wrapper {
+            gap: 8%;
+            .service-card {
+                width: 45%;
+                max-width: 45%;
+            } 
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .services {
+        &-cards__wrapper {
+            gap: 2%;
+            .service-card {
+                width: 32%;
+                max-width: 32%;
+
+                .card__glider {
+                    aspect-ratio: 7/12;
+                    .card-content {
+                        &__image {
+                            aspect-ratio: 7/12;
+                        }
+                        &--with-number {
+                            .card-content__number {
+                                font-size: 3rem;
+                            }
+        
+                            .card-content__text {
+                                font-size: 1.5rem;
+                            }
+                        }
+    
+                        &--without-number {
+                            .card-content__text {
+                                font-size: 1.3rem;
+    
+                                li {
+                                    &::marker {
+                                        font-size: 1.3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .services {
+        &-cards__wrapper {
+            .service-card {
+                width: 32%;
+                max-width: 32%;
+
+                .card__glider {
+                    aspect-ratio: 5/8;
+                    .card-content {
+                        &__image {
+                            aspect-ratio: 5/8;
+                        }
+                        &--with-number {
+                            .card-content__number {
+                                font-size: 4rem;
+                            }
+        
+                            .card-content__text {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        &--without-number {
+                            .card-content__text {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .services {
+        &-cards__wrapper {
+            .service-card {
+                width: 32%;
+                max-width: 32%;
+
+                .card__glider {
+                    aspect-ratio: 5/7;
+                    .card-content {
+                        &__image {
+                            aspect-ratio: 5/7;
+                        }
+                        &--with-number {
+                            .card-content__number {
+                                font-size: 4rem;
+                            }
+        
+                            .card-content__text {
+                                font-size: 2rem;
+                            }
+                        }
+    
+                        &--without-number {
+                            .card-content__text {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "profilePicture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC4D03AQF-7RxWswyc9Q%2Fprofile-displayphoto-shrink_800_800%2F0%2F1577801292586%3Fe%3D2147483647%26v%3Dbeta%26t%3DDVX-XryKOuTavGxAmQ3q6xGIPqkUT_i8ojzJfovxr0U&f=1&nofb=1&ipt=8f39f373a8decbf9f139b9b561e0699b547d9e77732949691bf90f91f62c1c6f&ipo=images",
+        "name": "Cristina Rebolo",
+        "position": "Diseño estratégico & dirección creativa"
+    },
+    {
+        "profilePicture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fst4.depositphotos.com%2F9998432%2F24360%2Fv%2F450%2Fdepositphotos_243600690-stock-illustration-person-gray-photo-placeholder-girl.jpg&f=1&nofb=1&ipt=6b453aab74b855ae9abe7cd9cfc7d7d807d7c5d4aedff1749fef5aff01e21c0e&ipo=images",
+        "name": "Bea Rivero",
+        "position": "Gestión Digital"
+    },
+    {
+        "profilePicture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fst4.depositphotos.com%2F9998432%2F24360%2Fv%2F450%2Fdepositphotos_243600690-stock-illustration-person-gray-photo-placeholder-girl.jpg&f=1&nofb=1&ipt=6b453aab74b855ae9abe7cd9cfc7d7d807d7c5d4aedff1749fef5aff01e21c0e&ipo=images",
+        "name": "Susana Rueda",
+        "position": "Dirección de arte"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Martín Bruster",
+        "position": "Dirección de arte"
+    },
+    {
+        "profilePicture":"https://i.imgur.com/NjD8lvi.jpeg",
+        "name": "Joaquín Benítez",
+        "position": "Filmmaker"
+    },
+    {
+        "profilePicture":"https://www.umu.se/ubnoy/globalassets/qbank2/sebastian_new-51983c68a92cf0332b75af932bd7277d39d7f.jpg?width=250&format=webp&quality=90",
+        "name": "Sebastián de Cabo",
+        "position": "Innovación & Tecnología"
+    },
+    {
+        "profilePicture":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fst4.depositphotos.com%2F9998432%2F24360%2Fv%2F450%2Fdepositphotos_243600690-stock-illustration-person-gray-photo-placeholder-girl.jpg&f=1&nofb=1&ipt=6b453aab74b855ae9abe7cd9cfc7d7d807d7c5d4aedff1749fef5aff01e21c0e&ipo=images",
+        "name": "Gabriela Haapalainen",
+        "position": "Diseño Gráfico"
+    },
+    {
+        "profilePicture":"https://bilateralarquitectos.com/wp-content/uploads/2023/06/IVAN_PEREIRA_BILATERAL_ARQUITECTOS.png",
+        "name": "Iván Pereyra",
+        "position": "Arquitecto"
+    },
+    {
+        "profilePicture":"https://bilateralarquitectos.com/wp-content/uploads/2023/06/DAVID600x500.png",
+        "name": "David Valcárcel",
+        "position": "Arquitecto"
+    },
+    {
+        "profilePicture":"http://victorjaubert.com/wp-content/uploads/about-me.jpg",
+        "name": "Victor Jaubert",
+        "position": "Ilustrador"
+    }
+
+]

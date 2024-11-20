@@ -1,0 +1,102 @@
+.interihotel {
+    margin-top: 3rem;
+
+    h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+    h4 {
+        margin-top: 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .panel__glider {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 7/5;
+
+        .panel-content {
+            position: relative;
+
+            &__image {
+                width: 100%;
+                object-fit: cover;
+                aspect-ratio: 7/5;
+            }
+
+            &__text {
+                margin-top: 2%;
+                bottom: 1rem;
+                left: 1rem;
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1rem;
+                color: black;
+                line-height: 1.4rem;
+            }
+        }
+
+        .glide__arrows {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            display: flex;
+
+            button {
+                background-color: transparent;
+                border: none;
+                width: 15%;
+                margin-left: auto;
+
+                img {
+                   width: 100%;
+
+                   &:hover {
+                        cursor: pointer;
+                        filter: invert(100%);
+                        transition: filter 0.2s linear;
+                   }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (min-width: 768px) {
+    .interihotel {
+    
+        .panel__glider {
+            aspect-ratio: 10/5;
+    
+            .panel-content {
+    
+                &__image {
+                    aspect-ratio: 10/5;
+                }
+    
+                &__text {
+                    position: absolute;
+                    margin-left: 1rem;
+                    max-width: 60%;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    color: white;
+                    text-shadow: 0px 0px 2px black;
+                    line-height: 1.8rem;
+                }
+            }
+    
+            .glide__arrows {
+                top: 45%;
+            }
+        }
+    }    
+}

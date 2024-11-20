@@ -1,0 +1,10 @@
+@import './css/style.css';
+@import '../../node_modules/@glidejs/glide/dist/css/glide.core.min.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  font-weight: normal;
+}
+

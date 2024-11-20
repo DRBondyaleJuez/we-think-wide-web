@@ -1,0 +1,20 @@
+$breakpoints: (
+  'small': 576px,
+  'medium': 768px,
+  'large': 992px,
+  'xlarge': 1200px
+);
+
+@mixin responsive($size) {
+    @if map-has-key($breakpoints, $size) {
+        @media screen and (min-width: map-get($breakpoints, $size)) {
+            @content;
+        }
+    } @else {
+        @error "Invalid breakpoint: #{$size}. Available breakpoints are: #{map-keys($breakpoints)}";
+    }
+}
+
+  
+  
+  

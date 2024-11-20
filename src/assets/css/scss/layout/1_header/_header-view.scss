@@ -1,0 +1,29 @@
+.header-view {
+    position: fixed;
+    width: 98%;
+    max-width: 1280px;
+    z-index: 2;
+    mix-blend-mode: difference;
+
+    &-wrapper {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        color: white;
+        font-family: arial;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    h2 {
+        color: white;
+        font-weight: 500;
+        font-family: arial;
+        align-self: center;
+    }
+}

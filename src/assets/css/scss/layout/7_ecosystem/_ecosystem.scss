@@ -1,0 +1,80 @@
+.ecosystem {
+    margin-top: 3rem;
+
+    h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
+
+    .member-cards__wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1rem 0;
+    }
+
+    .member-card {
+        margin-bottom: 1rem;
+        width: 40%;
+
+        h4 {
+            margin: 0.4rem 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        &__image {
+            width: 100%;
+            aspect-ratio: 5/5;
+            object-fit: cover;
+        }
+
+        &__text-wrapper {
+            margin-left: 1rem;
+            width: 95%;
+        }
+
+        &__name {
+            margin-bottom: 0.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+        }
+
+        &__position {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .ecosystem {
+    
+        .member-cards__wrapper {
+            justify-content: space-between;
+        }
+    
+        .member-card {
+            margin-bottom: 0.8rem;
+            width: 30%;
+    
+            &__text-wrapper {
+                margin-left: 0.5rem;
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .ecosystem {
+        .member-card {
+            margin-bottom: 1rem;
+            width: 18%;
+        }
+    }
+}

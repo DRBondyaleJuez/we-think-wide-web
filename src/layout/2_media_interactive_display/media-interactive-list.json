@@ -1,0 +1,14 @@
+[
+    { 
+        "type": "image", 
+        "url": "https://i.imgur.com/rBkbXS3.jpeg"
+    },
+    { 
+        "type": "video", 
+        "url": "https://onlinetestcase.com/wp-content/uploads/2023/06/15MB.mp4"
+    },
+    { 
+        "type": "gif", 
+        "url": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWlqcXQwZWFub2p6MHk1d2M0OXo3MXQxN29pdXZlcGt0OHoxeDl0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eljCVpMrhepUSgZaVP/giphy.webp"
+    }
+]
