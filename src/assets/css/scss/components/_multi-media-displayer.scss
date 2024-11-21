@@ -1,9 +1,6 @@
 .multi-media-displayer {
     width: 100%;
-    height: 700px;
-
-    /*&__wrapper {
-    }*/
+    height: 600px;
 
     &__view {
         width: 100%;
@@ -15,5 +12,24 @@
 
     .opacity-0 {
         opacity: 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .multi-media-displayer {
+        height: 600px;
+        &__wrapper {
+            height: 600px;
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .multi-media-displayer {
+        height: 100%;
+        &__wrapper {
+            height: unset;
+        }
     }
 }

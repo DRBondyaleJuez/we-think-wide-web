@@ -10,15 +10,29 @@ h3 {
   font-weight: 300;
 }
 
+@media (min-width: 576px) {
+  .services-cards__wrapper {
+    gap: 8%;
+  }
+  .services-cards__wrapper .service-card {
+    width: 45%;
+    max-width: 45%;
+  }
+}
+@media (min-width: 1500px) {
+  h3 {
+    margin: 0 0 2rem;
+    font-size: 1.7rem;
+  }
+}
 .header-view {
   position: fixed;
-  width: 98%;
-  max-width: 1280px;
+  width: 100%;
   z-index: 2;
   mix-blend-mode: difference;
 }
 .header-view-wrapper {
-  padding: 1rem 2rem;
+  padding: 5rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,11 +46,28 @@ h3 {
 }
 .header-view h2 {
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   font-family: arial;
   align-self: center;
 }
 
+@media (min-width: 576px) {
+  .header-view-wrapper {
+    padding: 2rem 2rem;
+  }
+}
+@media (min-width: 1500px) {
+  .header-view-wrapper {
+    padding: 1rem 4rem;
+  }
+  .header-view h1 {
+    font-size: 4rem;
+  }
+  .header-view h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
 .services {
   margin: 3rem 0 0 0;
 }
@@ -75,7 +106,7 @@ h3 {
   aspect-ratio: 5/7;
 }
 .services-cards__wrapper .service-card .card__glider .card-content--with-number {
-  width: 60%;
+  width: 70%;
   display: flex;
   position: absolute;
   z-index: 10;
@@ -242,6 +273,26 @@ h3 {
     font-size: 1.8rem;
   }
 }
+@media (min-width: 1500px) {
+  .services h2 {
+    font-size: 2.5rem;
+  }
+  .services-cards__wrapper .service-card .card__glider {
+    aspect-ratio: 5/7;
+  }
+  .services-cards__wrapper .service-card .card__glider .card-content__image {
+    aspect-ratio: 5/7;
+  }
+  .services-cards__wrapper .service-card .card__glider .card-content--with-number .card-content__number {
+    font-size: 6rem;
+  }
+  .services-cards__wrapper .service-card .card__glider .card-content--with-number .card-content__text {
+    font-size: 3rem;
+  }
+  .services-cards__wrapper .service-card .card__glider .card-content--without-number .card-content__text {
+    font-size: 2.2rem;
+  }
+}
 .specialized-services {
   margin-top: 3rem;
 }
@@ -319,6 +370,28 @@ h3 {
     color: white;
     text-shadow: 0px 0px 2px black;
     line-height: 1.8rem;
+  }
+  .specialized-services .panel__glider .glide__arrows {
+    top: 45%;
+  }
+}
+@media (min-width: 1500px) {
+  .specialized-services h2 {
+    font-size: 2.5rem;
+  }
+  .specialized-services h4 {
+    font-size: 1.5rem;
+  }
+  .specialized-services .panel__glider {
+    aspect-ratio: 10/5;
+  }
+  .specialized-services .panel__glider .panel-content__image {
+    aspect-ratio: 10/5;
+  }
+  .specialized-services .panel__glider .panel-content__text {
+    max-width: 50%;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
   }
   .specialized-services .panel__glider .glide__arrows {
     top: 45%;
@@ -444,21 +517,25 @@ h3 {
     max-width: 32%;
   }
 }
-.interihotel {
-  margin-top: 3rem;
+@media (min-width: 1500px) {
+  .projects h2 {
+    font-size: 2.5rem;
+  }
+  .projects .project-card__title {
+    margin: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+  }
+  .projects .project-card__description {
+    margin: 1rem 2rem 0rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
 }
 .interihotel h2 {
   margin-bottom: 2rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
-}
-.interihotel h4 {
-  margin-top: 0;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 .interihotel .panel__glider {
   position: relative;
@@ -521,6 +598,25 @@ h3 {
     color: white;
     text-shadow: 0px 0px 2px black;
     line-height: 1.8rem;
+  }
+  .interihotel .panel__glider .glide__arrows {
+    top: 45%;
+  }
+}
+@media (min-width: 1500px) {
+  .interihotel h2 {
+    font-size: 2.5rem;
+  }
+  .interihotel .panel__glider {
+    aspect-ratio: 10/5;
+  }
+  .interihotel .panel__glider .panel-content__image {
+    aspect-ratio: 10/5;
+  }
+  .interihotel .panel__glider .panel-content__text {
+    max-width: 50%;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
   }
   .interihotel .panel__glider .glide__arrows {
     top: 45%;
@@ -591,6 +687,19 @@ h3 {
     width: 18%;
   }
 }
+@media (min-width: 1500px) {
+  .ecosystem h2 {
+    font-size: 2.5rem;
+  }
+  .ecosystem .member-card {
+    width: 17%;
+  }
+  .ecosystem .member-card h4 {
+    margin: 0.4rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+  }
+}
 .clients {
   margin-top: 3rem;
 }
@@ -628,9 +737,26 @@ h3 {
          column-gap: 5%;
   }
 }
+@media (min-width: 1500px) {
+  .clients {
+    margin-top: 3rem;
+  }
+  .clients h2 {
+    font-size: 2.5rem;
+  }
+  .clients ul {
+    -moz-column-count: 3;
+         column-count: 3;
+    -moz-column-gap: 5%;
+         column-gap: 5%;
+  }
+  .clients ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 2%;
+    font-size: 1.4rem;
+  }
+}
 .footer-view {
-  width: 95%;
-  max-width: 1280px;
   margin: 3rem 0 0;
   padding: 1rem 2rem;
   background-color: #DDD;
@@ -702,11 +828,18 @@ h3 {
     width: 15%;
   }
 }
+@media (min-width: 1500px) {
+  .footer-view h2 {
+    font-size: 1.4rem;
+    margin-bottom: 8rem;
+  }
+  .footer-view a, .footer-view p {
+    font-size: 1.3rem;
+  }
+}
 .multi-media-displayer {
   width: 100%;
-  height: 700px;
-  /*&__wrapper {
-  }*/
+  height: 600px;
 }
 .multi-media-displayer__view {
   width: 100%;
@@ -721,6 +854,22 @@ h3 {
   opacity: 0;
 }
 
+@media (min-width: 992px) {
+  .multi-media-displayer {
+    height: 600px;
+  }
+  .multi-media-displayer__wrapper {
+    height: 600px;
+  }
+}
+@media (min-width: 1500px) {
+  .multi-media-displayer {
+    height: 100%;
+  }
+  .multi-media-displayer__wrapper {
+    height: unset;
+  }
+}
 .content-wrapper {
   margin: 2rem;
 }/*# sourceMappingURL=style.css.map */

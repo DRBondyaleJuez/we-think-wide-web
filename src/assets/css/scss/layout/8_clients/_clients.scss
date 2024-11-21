@@ -40,3 +40,24 @@
     }
 
 }
+
+@media (min-width: 1500px) {
+    .clients {
+        margin-top: 3rem;
+    
+        h2 {
+            font-size: 2.5rem;
+        }
+    
+        ul {
+            column-count: 3;
+            column-gap: 5%;
+    
+            li {
+                margin-bottom: 0.5rem;
+                padding-left: 2%;
+                font-size: 1.4rem;
+            }
+        }  
+    }  
+}

@@ -100,3 +100,32 @@
     }
 }
 
+@media (min-width: 1500px) {
+    .specialized-services {
+        h2 {
+            font-size: 2.5rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+        }
+        .panel__glider {
+            aspect-ratio: 10/5;
+    
+            .panel-content {
+                &__image {
+                    aspect-ratio: 10/5;
+                }
+    
+                &__text {
+                    max-width: 50%;
+                    font-size: 1.7rem;
+                    line-height: 2.5rem;
+                }
+            }
+    
+            .glide__arrows {
+                top: 45%;
+            }
+        }
+    }
+}

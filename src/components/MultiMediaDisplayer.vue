@@ -2,7 +2,7 @@
     <div class="multi-media-displayer">
         <div class="multi-media-displayer__wrapper"
             ref="containerRef"
-            :style="{ width: `100%`, height: `${containerWidth * 0.7}px` }"
+            :style="{ width: `100%`, height: `${containerWidth * 0.9}px` }"
             @mouseenter="handleMouseEnter"
             @mouseleave="handleMouseLeave"
             @mousemove="handleMouseMove"
@@ -133,7 +133,6 @@ export default {
 
 .multi-media-displayer {
   width: 100%;
-  height: 700px;
 
   &__view {
       width: 100%;

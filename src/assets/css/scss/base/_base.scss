@@ -9,3 +9,22 @@ h3 {
     font-family: Arial, sans-serif;
     font-weight: 300;
 }
+
+@media (min-width: 576px) {
+    .services {
+        &-cards__wrapper {
+            gap: 8%;
+            .service-card {
+                width: 45%;
+                max-width: 45%;
+            } 
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    h3 {
+        margin: 0 0 2rem;
+        font-size: 1.7rem;
+    }
+}

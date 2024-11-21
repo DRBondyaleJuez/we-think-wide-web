@@ -37,7 +37,7 @@
                     }
 
                     &--with-number {
-                        width: 60%;
+                        width: 70%;
                         display: flex;
                         position: absolute;
                         z-index: 10;
@@ -264,6 +264,41 @@
                         &--without-number {
                             .card-content__text {
                                 font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .services {
+        h2 {
+            font-size: 2.5rem;
+        }
+        &-cards__wrapper {
+            .service-card {
+                .card__glider {
+                    aspect-ratio: 5/7;
+                    .card-content {
+                        &__image {
+                            aspect-ratio: 5/7;
+                        }
+                        &--with-number {
+                            .card-content__number {
+                                font-size: 6rem;
+                            }
+        
+                            .card-content__text {
+                                font-size: 3rem;
+                            }
+                        }
+    
+                        &--without-number {
+                            .card-content__text {
+                                font-size: 2.2rem;
                             }
                         }
                     }

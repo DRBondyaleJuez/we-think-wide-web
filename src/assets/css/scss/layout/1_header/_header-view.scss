@@ -1,12 +1,11 @@
 .header-view {
     position: fixed;
-    width: 98%;
-    max-width: 1280px;
+    width: 100%;
     z-index: 2;
     mix-blend-mode: difference;
 
     &-wrapper {
-        padding: 1rem 2rem;
+        padding:5rem 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -25,5 +24,29 @@
         font-weight: 600;
         font-family: arial;
         align-self: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .header-view {
+        &-wrapper {
+            padding: 2rem 2rem;
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .header-view {
+        &-wrapper {
+            padding: 1rem 4rem;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            font-weight: 500;
+        }
     }
 }
