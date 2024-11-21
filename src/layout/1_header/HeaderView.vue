@@ -6,7 +6,7 @@
   <div class="header-view">
     <div class="header-view-wrapper">
         <h1>wide</h1>
-        <h2>Contact</h2>
+        <h2>contact</h2>
     </div>
 
 </div>
